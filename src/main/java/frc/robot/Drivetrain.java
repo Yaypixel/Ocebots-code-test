@@ -14,6 +14,6 @@ public class Drivetrain {
   }
 
   public void drive(double forward, double rotate) {
-    drive.arcadeDrive(forward * .5, -rotate * .5); 
+    drive.arcadeDrive(forward, -rotate); 
   }
 }
